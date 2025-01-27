@@ -1,0 +1,10 @@
+fastapi
+langchain_experimental.agents
+openai
+pandas
+os
+langchain.chat_models
+langchain.agents.agent_types
+uvicorn
+pydantic
+fastapi.middleware.cors
