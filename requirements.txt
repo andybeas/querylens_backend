@@ -1,7 +1,6 @@
 fastapi
 openai
 pandas
-os
 langchain
 uvicorn
 pydantic
