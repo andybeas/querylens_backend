@@ -1,0 +1,159 @@
+{
+    "row": {
+      "description": "daily subscription orders"
+    },
+    "columns": {
+      "TractId": {
+              "column_description": "This column indicates the identification number for a particular census tract.",
+              "dtype": "int64",
+      },
+      "State": {
+              "column_description": "This column indicates the state or province within a particular country.",
+              "dtype": "object",
+      },
+      "County": {
+              "column_description": "This column indicates the name of the county under any particular state.",
+              "dtype": "object",
+      },
+      "TotalPop": {
+              "column_description": "This column contains the total population in a county.",
+              "dtype": "int64",
+      },
+      "Men": {
+              "column_description": "This column contains the total men population in a county.",
+              "dtype": "int64",
+      },
+      "Women": {
+              "column_description": "This column contains the total women population in a county.",
+              "dtype": "int64",
+      },
+      "Hispanic": {
+              "column_description": "This column contains the percentage of total Hispanic population in a county.",
+              "dtype": "float64",
+      },
+      "White": {
+              "column_description": "This column contains the percentage of total White population in a county.",
+              "dtype": "float64",
+      },
+      "Black": {
+              "column_description": "This column contains the percentage of total Black population in a county.",
+              "dtype": "float64",
+      },
+      "Native": {
+              "column_description": "This column contains the percentage of total native population in a county.",
+              "dtype": "float64",
+      },
+      "Asian": {
+              "column_description": "This column contains the percentage of total Asian population in a county.",
+              "dtype": "float64",
+      },
+      "Pacific": {
+              "column_description": "This column contains the percentage of total Pacific population in a county.",
+              "dtype": "float64",
+      },
+      "VotingAgeCitizen": {
+              "column_description": "This column contains the total number citizens meeting the criteria of both citizenship and the minimum age required to vote within a county.",
+              "dtype": "int64",
+      },
+      "Income": {
+              "column_description": "This column contains the average earnings across the population within a county.",
+              "dtype": "float64",
+      },
+      "IncomeErr": {
+              "column_description": "This column contains the margin of error or uncertainty associated with the reported income figures within a county.",
+              "dtype": "float64",
+      },
+      "IncomePerCap": {
+              "column_description": "This column contains the average of the income earned per person within a county.",
+              "dtype": "float64",
+      },
+      "IncomePerCapErr": {
+              "column_description": "This column contains the margin of error or uncertainty related to the calculated average income per capita within a county.",
+              "dtype": "float64",
+      },
+      "Poverty": {
+              "column_description": "This column contains the percentage of total number of people who are living in poverty in a county.",
+              "dtype": "float64",
+      },
+      "ChildPoverty": {
+              "column_description": "This column contains the percentage of children living in poverty in a county.",
+              "dtype": "float64",
+      },
+      "Professional": {
+              "column_description": "This column contains the percentage of people who are qualified to provide professional services in a county.",
+              "dtype": "float64",
+      },
+      "Service": {
+              "column_description": "This column contains the percentage of people who provide non-professional services in a county.",
+              "dtype": "float64",
+      },
+      "Office": {
+              "column_description": "This column contains the percentage of offices in a county.",
+              "dtype": "float64",
+      },
+      "Construction": {
+              "column_description": "This column contains the percentage of construction industries in a county.",
+              "dtype": "float64",
+      },
+      "Production": {
+              "column_description": "This column contains the percentage of people on the production line and produce goods in a county.",
+              "dtype": "float64",
+      },
+      "Drive": {
+              "column_description": "This column contains the percentage of people who owns a vehicle and drive it in a county.",
+              "dtype": "float64",       
+      },
+      "Carpool": {
+              "column_description": "This column contains the percentage of people who use carpool in a county.",
+              "dtype": "float64",
+              
+      },
+      "Transit": {
+              "column_description": "This column contains the percentage of people who use public transit in a county.",
+              "dtype": "float64",    
+      },
+      "Walk": {
+              "column_description": "This column contains the percentage of people who walk to work/school within a county.",
+              "dtype": "float64",        
+      },
+      "OtherTransp": {
+              "column_description": "This column contains the percentage of people who use other modes of transportation other than walk in a county.",
+              "dtype": "float64",    
+      },
+      "WorkAtHome": {
+              "column_description": "This column contains the percentage of people who works at home in a county.",
+              "dtype": "float64",
+      },
+      "MeanCommute": {
+              "column_description": "This column contains the average commute time for commuters in minutes in a county.",
+              "dtype": "float64",
+      },
+      "Employed": {
+              "column_description": "This column contains the total number of employed adults in a county.",
+              "dtype": "int64",
+              
+      },
+      "PrivateWork": {
+              "column_description": "This column contains the percentage of people who do private work in a county.",
+              "dtype": "float64",
+              
+      },
+      "PublicWork": {
+              "column_description": "This column contains the percentage of people who do public or government project works undertaken within a county.",
+              "dtype": "float64",   
+      },
+      "SelfEmployed": {
+              "column_description": "This column contains the percentage of people who are self-employed in a county.",
+              "dtype": "float64",   
+      },
+      "FamilyWork": {
+              "column_description": "This column contains the percentage of people who do family work in a county.",
+              "dtype": "float64",  
+      },
+      "Unemployment": {
+              "column_description": "This column contains the percentage of unemployed workforce in a county.",
+              "dtype": "float64",  
+      }
+    
+    }
+}
