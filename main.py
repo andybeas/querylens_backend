@@ -24,6 +24,7 @@ origins = [
     "localhost:8080",
     "http://localhost:5173",
     "localhost:5173",
+    "*"
 ]
 
 app.add_middleware(
@@ -48,7 +49,7 @@ def read_root():
 
 
 
-@app.get("/get-dataset-lov")
+@app.get("/get_dataset_lov")
 def get_dataset_lov():
     return {"names": ["accs", "aps"]}
 
