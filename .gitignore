@@ -1,3 +1,7 @@
 
 test.ipynb
 test_india.ipynb
+.env
+*.pyc
+.venv
+*.ipynb
