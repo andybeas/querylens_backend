@@ -6,7 +6,9 @@ import pandas as pd
 # from langchain.agents import create_pandas_dataframe_agent
 from langchain_experimental.agents import create_pandas_dataframe_agent
 from dotenv import load_dotenv 
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
+# from langchain_community.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 
 # df: pd.DataFrame = pd.read_csv("./Uscensus/ahs-cab2014-chhattisgarh-durg.csv")
